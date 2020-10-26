@@ -47,7 +47,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 48.5, 357.0, 287.0, 66.0 ],
+					"patching_rect" : [ 48.5, 364.0, 287.0, 66.0 ],
 					"presentation_linecount" : 7,
 					"text" : "jit.bfg outputs multiple planes, so we can get multiple signals from the same object. It is useful to have synced-but-not-synced LFOs!"
 				}
@@ -111,11 +111,11 @@
 					"fontface" : 0,
 					"fontsize" : 12.0,
 					"id" : "obj-15",
-					"linecount" : 3,
+					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 21.0, 43.0, 481.0, 47.0 ],
+					"patching_rect" : [ 21.0, 43.0, 630.5, 33.0 ],
 					"presentation_linecount" : 11,
 					"text" : "Generate psuedo-random 1-dimensional modulation signals using basis functions. Like a good old fashioned sine LFO, but a lot more interesting. Also kind of like good old fashoined noise with a sample and hold, but less random."
 				}
@@ -1395,7 +1395,7 @@
 					"numoutlets" : 2,
 					"offset" : [ 0.0, 0.0 ],
 					"outlettype" : [ "signal", "signal" ],
-					"patching_rect" : [ 94.5, 108.0, 182.0, 245.0 ],
+					"patching_rect" : [ 95.5, 120.0, 182.0, 245.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -1487,7 +1487,7 @@
 									"patching_rect" : [ 135.666666666666686, 117.203927256385896, 72.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.5, 120.0, 72.0, 20.0 ],
-									"text" : "0.01"
+									"text" : "0.00"
 								}
 
 							}
@@ -1664,8 +1664,6 @@
 					}
 ,
 					"patching_rect" : [ 269.0, 460.0, 235.0, 148.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 253.0, 295.0, 236.999993801116943, 146.562725493101425 ],
 					"viewvisibility" : 1
 				}
 
@@ -1757,7 +1755,7 @@
 									"patching_rect" : [ 135.666666666666686, 117.203927256385896, 72.0, 20.0 ],
 									"presentation" : 1,
 									"presentation_rect" : [ 2.5, 120.0, 72.0, 20.0 ],
-									"text" : "0.32"
+									"text" : "0.00"
 								}
 
 							}
@@ -1934,8 +1932,6 @@
 					}
 ,
 					"patching_rect" : [ 29.0, 460.0, 235.0, 148.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 175.022726576064997, 3.0, 236.999993801116943, 146.562725493101425 ],
 					"viewvisibility" : 1
 				}
 
@@ -1985,8 +1981,8 @@
 			}
 , 			{
 				"name" : "bfg-modulator.maxpat",
-				"bootpath" : "~/Dropbox/Projects/Max/scan_transformer",
-				"patcherrelativepath" : "../../scan_transformer",
+				"bootpath" : "~/Dropbox/Projects/Max/modulation-sources/bfg-lfo",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
