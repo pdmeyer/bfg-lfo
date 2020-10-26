@@ -57,7 +57,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "" ],
+					"outlettype" : [ "signal" ],
 					"patching_rect" : [ 75.5, 50.0, 31.0, 31.0 ]
 				}
 
@@ -81,7 +81,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "signal" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 19.0, 50.0, 31.0, 31.0 ]
 				}
 
@@ -1583,8 +1583,8 @@
 									"numinlets" : 6,
 									"numoutlets" : 1,
 									"outlettype" : [ "signal" ],
-									"patching_rect" : [ 160.0, 285.0, 84.0, 20.0 ],
-									"text" : "scale~ 0. 1. 0. 1."
+									"patching_rect" : [ 160.0, 285.0, 87.0, 20.0 ],
+									"text" : "scale~ -1. 1. 0. 1."
 								}
 
 							}
@@ -1597,7 +1597,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 160.0, 24.0, 41.0, 18.0 ],
-									"presentation_linecount" : 2,
 									"text" : "signal"
 								}
 
@@ -1611,7 +1610,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 112.0, 24.0, 34.0, 18.0 ],
-									"presentation_linecount" : 2,
 									"text" : "float"
 								}
 
@@ -1624,7 +1622,7 @@
 									"maxclass" : "inlet",
 									"numinlets" : 0,
 									"numoutlets" : 1,
-									"outlettype" : [ "" ],
+									"outlettype" : [ "signal" ],
 									"patching_rect" : [ 160.0, 46.0, 18.0, 18.0 ]
 								}
 
@@ -2101,7 +2099,6 @@
 									"numinlets" : 1,
 									"numoutlets" : 0,
 									"patching_rect" : [ 112.0, 4.0, 34.0, 18.0 ],
-									"presentation_linecount" : 2,
 									"text" : "value"
 								}
 
