@@ -85,10 +85,22 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
-					"parameter_enable" : 0,
+					"parameter_enable" : 1,
 					"patching_rect" : [ 185.729166666666572, 60.0, 50.0, 22.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 116.020833333333371, 28.0, 46.520833333333258, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 1.0 ],
+							"parameter_initial_enable" : 1,
+							"parameter_longname" : "bfg_scale[0]",
+							"parameter_mmax" : 3.0,
+							"parameter_shortname" : "bfg_scale[0]",
+							"parameter_type" : 0
+						}
+
+					}
+,
 					"varname" : "bfg_scale[0]"
 				}
 
@@ -295,8 +307,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
-					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.737, 0.737, 0.737, 1.0 ],
+					"bgfillcolor_color" : [ 0.737, 0.737, 0.737, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_type" : "color",
@@ -365,8 +377,8 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.737, 0.737, 0.737, 1.0 ],
-					"bgfillcolor_color" : [ 0.737, 0.737, 0.737, 1.0 ],
+					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgfillcolor_color" : [ 0.2, 0.2, 0.2, 1.0 ],
 					"bgfillcolor_color1" : [ 0.301961, 0.301961, 0.301961, 1 ],
 					"bgfillcolor_color2" : [ 0.2, 0.2, 0.2, 1 ],
 					"bgfillcolor_type" : "color",
@@ -400,7 +412,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.737, 0.737, 0.737, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"format" : 6,
@@ -431,7 +443,7 @@
 			}
 , 			{
 				"box" : 				{
-					"bgcolor" : [ 0.2, 0.2, 0.2, 1.0 ],
+					"bgcolor" : [ 0.737, 0.737, 0.737, 1.0 ],
 					"fontname" : "Arial",
 					"fontsize" : 13.0,
 					"format" : 6,
