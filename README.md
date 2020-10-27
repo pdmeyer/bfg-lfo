@@ -9,4 +9,6 @@ for more info on basis functions, see daniel shiffman's fantastic [tutorials](ht
 
 ## the files
 * **bfg-lfo.maxpat** main patch that you can use as a bpatcher. outputs two modulation signals
-* **bfg-lfo.amxd** max for live version
+* **bfg-lfo-live.amxd** max for live version
+* **other .maxpat files** abstractions used inside of the first two
+* **bfg-lfo.maxhelp** help patcher showing off what bfg-lfo.maxpat does
